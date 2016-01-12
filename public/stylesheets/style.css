@@ -73,9 +73,10 @@ a {
     text-align: center;
   }
 
-  #footer img {
+  #footer img{
     margin:0 auto;
   }
+
 }
 
 
@@ -251,6 +252,6 @@ a {
   color: #16A085;
 }
 
-#footer .logo{
+#footer img{
   color: #16A085;
 }
