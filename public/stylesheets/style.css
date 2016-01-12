@@ -68,6 +68,14 @@ a {
   #download ul li {
     margin-top: 10px;
   }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer img {
+    margin:0 auto;
+  }
 }
 
 
@@ -222,4 +230,27 @@ a {
   font-size: 24px;
   color: #16A085;
   font-weight: 700;
+}
+
+/*Footer*/
+
+#footer{
+  padding:50px 0;
+}
+
+#footer p{
+  font-weight: 700;
+}
+
+#footer a{
+  color:#000;
+}
+
+#footer a:hover{
+  text-decoration: none;
+  color: #16A085;
+}
+
+#footer .logo{
+  color: #16A085;
 }
