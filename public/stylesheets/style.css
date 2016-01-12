@@ -1,0 +1,198 @@
+p h1{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/*Navbar*/
+
+.navbar-default{
+  background-color: transparent;
+  border: transparent;
+
+}
+
+.navbar-nav{
+  font-family: 'Signika Negative', sans-serif;
+  margin: 35px 100px 0;
+}
+
+.navbar-default .navbar-nav li a{
+  color: white;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #16a085;
+}
+
+.logo img{
+  margin:15px 0 0 100px;
+}
+
+
+
+
+/*Media Queries*/
+
+@media (max-width: 768px) {
+
+  .logo img{
+    margin:10px 0 0 15px;
+  }
+
+
+  .navbar-nav{
+    margin:0px;
+    background-color: black;
+    opacity: .7;
+  }
+
+  .navbar-toggle{
+    margin-top:45px;
+  }
+
+  #design {
+    text-align: center;
+  }
+
+  #community .logo {
+    margin:0 auto;
+
+  }
+
+  #community .bus{
+    margin-top:15px;
+
+  }
+}
+
+
+/*Slider*/
+
+#slider{
+  background: url("../images/header-bg.jpg");
+  width:100%;
+  background-size: cover;
+}
+
+.item{
+  color: #fff;
+  padding:200px 0;
+}
+
+.item  h1{
+  font-size: 44px;
+}
+
+.carousel-indicators li {
+  background-color: white;
+  margin: 5px;
+}
+
+
+.carousel-indicators .active {
+  background-color: #16a085;
+  margin: 5px;
+  border:1px #16a085;
+}
+
+.btn-success{
+  background-color:#16a085;
+  border-color: #16a085;
+  font-size:12px;
+  padding:10px 20px;
+  margin:15px 0;
+}
+
+.btn-success:hover{
+  background-color: black;
+  border-color: #0f0f0f;
+}
+
+
+/*Photo*/
+
+#photo{
+  background-color: #f5f6f7;
+  padding:80px 0;
+  text-align: center;
+}
+
+
+#photo h1{
+  color: #16A085;
+  font-size: 19px;
+  font-weight:700;
+}
+
+#photo .fa{
+  color: #16A085;
+}
+
+#photo .fa:hover{
+  color: #0f6d5b;
+}
+
+/*Design*/
+
+#design{
+  padding:80px 0;
+}
+
+#design h1{
+  font-size: 24px;
+  font-weight: 700;
+  color: #16A085;
+  padding-left:20px;
+}
+
+#design .btn-success{
+  margin-left:20px;
+}
+
+/*Community*/
+
+#community {
+  background-color: #f5f6f7;
+  padding:80px 0;
+  text-align: center;
+}
+
+#community .logo{
+  padding-top:30px;
+  color: #16A085;
+}
+
+#community h1 {
+  font-size: 14px;
+  color: #16A085;
+  font-weight: 700;
+}
+
+/*Signup*/
+
+#signup {
+  background:url('../images/Layer1.png');
+  width:100%;
+  background-size: cover;
+  padding:300px 0;
+}
+
+#signup h1 {
+  color: #fff;
+  font-size:18px;
+  text-align: center;
+  padding-bottom:15px;
+}
+
+#signup .btn{
+  background-color: #16A085;
+  border-color: #16A085;
+  color: #fff;
+}
+#signup .btn:hover{
+  background-color: #0f6d5b;
+  border-color:#0f6d5b ;
+  color: #000;
+}
